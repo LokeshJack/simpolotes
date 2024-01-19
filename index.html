@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <label ><img src="menu-bar.png" width="40px" alt="menu-bar" ></label> 
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li style="margin:5px;" class="topright"><a href=""><img src="menu-bar.png" width="40px" alt="menu-bar" ></a></li>
+          
+           
+        </ul>
+    </div>
+
+   
+    <div class="section section1">
+        <div class="left-side">
+            <h2>LOREM IPSUM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="click-me-button">Click Me</a>
+        </div>
+        <div class="right-side">
+            <img src="pexels-robin-stickel-70497.jpg" alt="Image 1" style="max-width: 100%;">
+        </div>
+    </div>
+    <div class="section section2">
+        <div class="left-side">
+           
+            <div class="grid-images">
+                <img src="pexels-rachel-claire-6752433.jpg" alt="Image 2" >
+                <img src="pexels-mister-mister-3434523.jpg" alt="Image 3" >
+                <img src="pexels-eva-bronzini-6141651.jpg" alt="Image 4">
+                
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="text-box">
+                <p>LOREM IPSUM </p>
+                <h1 style="font-size: 40px;">LOREM IPSUM SET ADEMIR</h1>
+                <P>Click </P><img src="icons8-arrow-30.png" alt="Clickable Button" class="button-img">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
